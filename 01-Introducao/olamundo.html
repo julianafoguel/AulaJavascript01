@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 Introdução</title>
+    <script src="meuscript.js"></script>
+</head>
+<body>
+    <p id="p1"> Olá Mundo</p>
+
+    <button type="button" onclick='document.getElementById("p1").innerHTML="Me chamos Juliana"'>Clique em Mim...</button>
+    
+    <hr>
+
+    <h1 id="p2">Kaspper Academy</h1>
+    
+    <button type="button" onclick='document.getElementById("p2").innerHTML="Lugar de aprender e Crescer"'>Slogan Kaspper</button> 
+    
+    <hr>
+
+    Data completa:<br>
+    <p id="datacompleta"></p>
+
+<script>
+    const d = new Date();
+    document.getElementById("datacompleta").innerHTML = d;
+</script>
+
+<hr>
+<button type="button" onclick="mudarcor()">Mudar Cor</button>
+
+    
+
+
+</body>
+</html>
